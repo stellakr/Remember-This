@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Times New Roman';
+    font-size: 700%;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 150%; 
+}
+
+.navbar {
+    overflow:hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: gray;
+    color: black;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url(clock.jpg);
+}
